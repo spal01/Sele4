@@ -45,7 +45,7 @@ public class LaunchBrowser {
 		title=driver.getTitle();
 		System.out.println("Title is " + title);
 		
-		
+		driver.quit();
 	}
 
 }
